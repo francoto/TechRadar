@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - previous-working-commit
   workflow_dispatch:
 
 permissions:
